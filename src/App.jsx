@@ -16,11 +16,11 @@ import styles from './styles.js'
 export default function App() {
   return (
     <main className="bg-primary w-full overflow-hidden">
-      <nav className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <section className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={styles.boxWidth}>
           <Navbar />
         </div>
-      </nav>
+      </section>
 
       <section className={`bg-primary ${styles.flexStart}`}>
         <div className={styles.boxWidth}>
