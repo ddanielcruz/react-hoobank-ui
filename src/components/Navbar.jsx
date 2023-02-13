@@ -17,7 +17,7 @@ export default function Navbar() {
         {navLinks.map(({ id, title }, idx) => (
           <li
             key={id}
-            className={`font-poppins cursor-pointer text-white ${
+            className={`font-poppins cursor-pointer text-white hover:opacity-90 ${
               idx === navLinks.length - 1 ? '' : 'mr-10'
             }`}
           >
